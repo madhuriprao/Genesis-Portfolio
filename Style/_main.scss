@@ -1,0 +1,60 @@
+section{
+    display: inline-block;
+
+     }
+     
+     
+.main__heading{
+    margin-top: 80px;
+        font-weight: bold;
+        size: 40px;
+        max-width: 500px;
+        width: 100%;
+        margin-left: 125px;
+
+     }
+    .main__info{
+    size: 16px;
+    font-weight:normal;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 125px;
+
+
+}
+     table {
+        margin-top: 80px;
+        margin-left: 240px;
+        max-width: 500px;
+        width: 100%;
+            border-collapse: collapse;
+        margin: 5px;
+        margin-left: 125px;
+        min-height: 300px;
+
+      }
+    th,td {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+        text-align: left;
+      }
+
+    th {
+        background-color: #f2f2f2;
+      }
+
+      .mainimg{
+        max-width: 500px;
+        width: 80%;
+        min-height: 80vh;
+        margin-left: 125px;
+      }
+      .secondinfo{
+        font-weight:normal;
+        size: 16px;
+        margin-left: 125px;
+        margin-right: 125px;
+
+      }
+      
+    @import 'card'; 

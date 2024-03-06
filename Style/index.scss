@@ -1,0 +1,7 @@
+@use 'fonts';
+
+@import 'header'; 
+@import 'main';
+body {
+    font-family: fonts.$main-font;
+}
