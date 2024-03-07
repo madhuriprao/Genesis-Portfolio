@@ -1,0 +1,34 @@
+.first-table {
+    margin-left: 240px;
+      max-width: 500px;
+      width: 100%;
+          border-collapse: collapse;
+      margin: 5px;
+      min-height: 200px;
+
+    }
+  th,td {
+      border-bottom: 1px solid #ddd;
+      padding: 5px;
+      text-align: left;
+    }
+
+  th {
+      background-color: #f2f2f2;
+    }
+
+    .award-table{
+        margin-left: 180px;
+        max-width: 1000px;
+        width: 100%;
+        border-collapse: collapse;
+        min-height: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      th,td {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+        text-align: left;
+      }
+  

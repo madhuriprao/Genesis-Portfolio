@@ -1,0 +1,101 @@
+
+body {
+    margin: 0;
+  }
+
+  .box {
+   max-width:850px;
+   max-height: 850px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 400px;
+
+  }
+
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(33, 1fr);
+  width: 100%;
+  grid-gap: 5px;
+  height: 100%;
+  padding: 15px;
+  box-shadow: 4px 4px 12px #000000;
+}
+
+.grid__element {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+  .grid__element:hover .overlay {
+    opacity: 0.5;
+  }
+  
+  .one {
+    grid-row: 1 / 8;
+    grid-column: 1 / 4;
+
+  }
+  .two {
+    grid-row: 1 / 7;
+    grid-column: 4 / 7;
+
+  }
+  .three {
+    grid-row: 1 / 11;
+    grid-column: 7 / 10;
+
+  }
+  .four {
+    grid-row: 8 / 16;
+    grid-column: 1 / 4;  
+
+}
+  .five {
+    grid-row: 7 / 14;
+    grid-column: 4 / 7;
+
+  }
+  .six {
+    grid-row: 11 / 18;
+    grid-column: 7 / 10;
+
+  }
+  .seven {
+    grid-row: 16 / 24;
+    grid-column: 1 / 4;
+
+  }
+  .eight {
+    grid-row: 14 / 23;
+    grid-column: 4 / 7;
+
+  }
+  .nine {
+    grid-row: 18 / 27;
+    grid-column: 7 / 10;
+
+  }
+  .ten {
+    grid-row: 24 / 33;
+    grid-column: 1 / 4;
+
+  }
+  .eleven {
+    grid-row: 23 / 33;
+    grid-column: 4 / 7;
+
+  }
+  .twelve {
+    grid-row: 27 / 33;
+    grid-column: 7 / 10;
+
+  }
+  
+  @import '_section'; 

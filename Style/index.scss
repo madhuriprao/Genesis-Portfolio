@@ -1,7 +1,10 @@
 @use 'fonts';
 
-@import 'header'; 
+@import 'headerfooter'; 
 @import 'main';
+@import 'grid';
+@import '_form';
+
 body {
     font-family: fonts.$main-font;
 }
